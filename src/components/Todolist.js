@@ -3,7 +3,7 @@ import React from 'react'
 function Todolist({todos, setTodos, setEditTodo}) {
 
     const handleEdit = ({id}) => {
-        const findTodo = todos.find((todo) => todo.id === id);
+        const findTodo = todos.find((todo) => todo.id === id); // this is the find method, it will be used to find the todo that we want to edit
         setEditTodo(findTodo);
     }
 

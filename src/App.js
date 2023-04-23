@@ -7,7 +7,7 @@ import Todolist from './components/Todolist'; // importing the todolist componen
 
 const App = () => {
 
-  // defining the initial state of the app, and the variables that will be used in the app, and the functions that will be used in the app
+  
 
 
   const initialState = JSON.parse(localStorage.getItem('todos')) || [];// this is the initial state of the app, it will be used to store the todos in the local storage
